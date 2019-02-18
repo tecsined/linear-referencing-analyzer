@@ -15,5 +15,4 @@ const allRanges: Measure[] = [
     { from: 209, to: 400 }];
 
 const rs = new LinearReferencingAnalyzer(allRanges);
-console.log(rs.GetRangesExcludingGaps());
-console.log(rs.GetRangesExcludingGaps());
+console.log(rs.getRangesExcludingGaps());
