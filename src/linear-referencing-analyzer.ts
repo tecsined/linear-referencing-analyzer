@@ -1,5 +1,5 @@
-import { Stack } from "./stack";
-import { Measure } from "./Measure";
+import { Stack } from './stack';
+import { Measure } from './Measure';
 
 export class LinearReferencingAnalyzer {
 

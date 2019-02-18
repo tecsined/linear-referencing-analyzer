@@ -1,4 +1,4 @@
-import { LinearReferencingAnalyzer } from "./linear-refering-analyzer";
+import { LinearReferencingAnalyzer } from './linear-referencing-analyzer';
 import { Measure } from "./Measure";
 
 const allRanges: Measure[] = [
