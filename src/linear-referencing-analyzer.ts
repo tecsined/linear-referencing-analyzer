@@ -36,7 +36,7 @@ export class LinearReferencingAnalyzer {
 
     private getNewMeasures(): Measure[] {
         const rangesWithoutGaps: Measure[] = [];
-        while (this.stack.count != 0) {
+        while (this.stack.count !== 0) {
             const t = this.stack.pop();
             const f = this.stack.pop();
             rangesWithoutGaps.unshift({ from: f, to: t });
