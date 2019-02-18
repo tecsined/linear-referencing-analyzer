@@ -9,7 +9,7 @@ export class LinearReferencingAnalyzer {
         this.stack = new Stack<number>();
     }
 
-    GetRangesExcludingGaps(): Measure[] {
+    getRangesExcludingGaps(): Measure[] {
         this.allRanges.forEach((measure: Measure) => {
             if (this.stack.count === 0) {
                 this.addMeasuresToStack(measure);
